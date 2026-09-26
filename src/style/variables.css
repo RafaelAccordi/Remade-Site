@@ -1,0 +1,14 @@
+:root {
+	color-scheme: light;
+	--ink: #111210;
+	--ink-soft: #20211f;
+	--paper: #f3f2ed;
+	--white: #fffefa;
+	--gold: #c3aa76;
+	--lime: #e3d765;
+	--muted: #a6a59f;
+	--line-dark: rgba(255, 255, 255, .16);
+	--line-light: rgba(17, 18, 16, .15);
+	--font-body: "DM Sans", sans-serif;
+	--font-display: "Manrope", sans-serif;
+}

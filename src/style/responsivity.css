@@ -1,0 +1,302 @@
+@media (max-width: 991.98px) {
+	.site-header .navbar {
+		min-height: 74px;
+	}
+
+	.navbar-collapse {
+		margin: 0 -12px;
+		padding: 8px 24px 17px;
+		border-bottom: 1px solid var(--line-dark);
+		background: rgba(17, 18, 16, .97);
+	}
+
+	.inner-hero {
+		min-height: 350px;
+	}
+
+	.about-intro-grid,
+	.contact-grid {
+		grid-template-columns: 1fr;
+		gap: 35px;
+	}
+
+	.team-card {
+		min-height: 390px;
+	}
+
+	.navbar-nav .nav-link {
+		padding: 10px 0;
+	}
+
+	.hero {
+		min-height: 720px;
+		min-height: max(680px, 100svh);
+	}
+
+	.section-pad {
+		padding: 88px 0;
+	}
+
+	.studio-top {
+		grid-template-columns: minmax(160px, .65fr) minmax(0, 1.6fr);
+		column-gap: 35px;
+	}
+
+	.client-slide {
+		flex-basis: calc((100% - 28px) / 3);
+	}
+
+	.carousel-progress span {
+		width: 33.333%;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.inner-hero {
+		min-height: 325px;
+	}
+
+	.inner-hero-content {
+		padding-top: 55px;
+		padding-bottom: 38px;
+	}
+
+	.inner-hero h1 {
+		font-size: clamp(39px, 9vw, 58px);
+	}
+
+	.catalog-section,
+	.about-intro,
+	.contact-page-section {
+		padding-top: 62px;
+		padding-bottom: 76px;
+	}
+
+	.team-section {
+		padding-bottom: 76px;
+	}
+
+	.team-card {
+		min-height: 430px;
+	}
+
+	.catalog-filters {
+		gap: 7px;
+	}
+
+	.filter-button {
+		padding: 8px 12px;
+	}
+
+	.hero {
+		min-height: max(680px, 100svh);
+	}
+
+	.hero-image {
+		object-position: 56% center;
+	}
+
+	.hero-content {
+		padding-top: 104px;
+		padding-bottom: 116px;
+	}
+
+	.hero h1 {
+		font-size: clamp(48px, 11vw, 70px);
+	}
+
+	.hero-bottom {
+		align-items: start;
+		flex-direction: column;
+		gap: 26px;
+		margin-top: 31px;
+	}
+
+	.hero-bottom > p {
+		max-width: 390px;
+		font-size: 14px;
+	}
+
+	.hero-scroll {
+		left: 12px;
+	}
+
+	.section-heading,
+	.clients-heading {
+		align-items: start;
+		flex-direction: column;
+		gap: 19px;
+		margin-bottom: 34px;
+	}
+
+	.section-intro {
+		max-width: 500px;
+	}
+
+	.studio-top {
+		display: block;
+	}
+
+	.studio-top h2 {
+		max-width: 620px;
+		font-size: clamp(38px, 8vw, 54px);
+	}
+
+	.studio-copy {
+		margin-top: 20px;
+	}
+
+	.process-row {
+		margin-top: 56px;
+	}
+
+	.process-step {
+		min-height: 0;
+		padding: 23px 0;
+	}
+
+	.process-step + .process-step {
+		padding-left: 0;
+		border-top: 1px solid var(--line-dark);
+		border-left: 0;
+	}
+
+	.process-step h3 {
+		margin-top: 13px;
+	}
+
+	.clients-heading {
+		flex-direction: row;
+		align-items: end;
+		justify-content: space-between;
+	}
+
+	.clients-heading h2 {
+		font-size: 43px;
+	}
+
+	.clients-heading p:not(.eyebrow) {
+		max-width: 240px;
+		line-height: 1.6;
+	}
+
+	.client-slide {
+		flex-basis: calc((100% - 14px) / 2);
+		aspect-ratio: 1.45;
+		padding: 17px;
+	}
+
+	.carousel-progress span {
+		width: 50%;
+	}
+
+	.contact-inner {
+		align-items: start;
+		flex-direction: column;
+	}
+
+	.footer-main {
+		min-height: 0;
+		align-items: start;
+		flex-wrap: wrap;
+		padding-top: 31px;
+		padding-bottom: 29px;
+	}
+
+	.footer-brand {
+		width: 100%;
+	}
+
+	.footer-contact {
+		font-size: 11px;
+	}
+
+	.footer-social {
+		gap: 13px;
+	}
+}
+
+@media (max-width: 480px) {
+	.inner-hero {
+		min-height: 300px;
+	}
+
+	.inner-hero h1 {
+		font-size: 39px;
+	}
+
+	.team-card {
+		min-height: 370px;
+	}
+
+	.section-pad {
+		padding: 70px 0;
+	}
+
+	.navbar-brand img,
+	.footer-brand img {
+		width: 154px;
+	}
+
+	.hero h1 {
+		font-size: 48px;
+	}
+
+	.hero .eyebrow {
+		font-size: 9px;
+	}
+
+	.hero-index {
+		right: 21px;
+	}
+
+	.section-heading h2,
+	.clients-heading h2 {
+		font-size: 40px;
+	}
+
+	.work-grid {
+		--bs-gutter-y: 27px;
+	}
+
+	.work-caption h3 {
+		font-size: 16px;
+	}
+
+	.clients-heading {
+		align-items: start;
+	}
+
+	.carousel-controls {
+		gap: 6px;
+		padding-top: 28px;
+	}
+
+	.carousel-control {
+		width: 38px;
+		height: 38px;
+	}
+
+	.footer-bottom {
+		min-height: 74px;
+		align-items: start;
+		flex-direction: column;
+		justify-content: center;
+		gap: 8px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: .01ms !important;
+		animation-iteration-count: 1 !important;
+		scroll-behavior: auto !important;
+		transition-duration: .01ms !important;
+	}
+}
